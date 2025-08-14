@@ -8,6 +8,14 @@ body {
   justify-content: center;
 }
 
+body.login-page {
+  flex-direction: column;
+}
+
+body.login-page h1 {
+  text-align: center;
+}
+
 .login-container {
   background: #fff;
   padding: 20px;
@@ -54,6 +62,17 @@ header {
   width: 100%;
   position: fixed;
   top: 0;
+}
+
+header h1 {
+  flex: 1;
+  text-align: center;
+  margin: 0;
+}
+
+header .logout-btn {
+  padding: 10px 20px;
+  font-size: 16px;
 }
 
 .sections {
